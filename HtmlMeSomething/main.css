@@ -1,0 +1,81 @@
+﻿
+body{
+    height:100%;
+    margin: 0;
+    text-align: center;
+}
+
+nav{
+    background-color:darkolivegreen;
+}
+nav li{
+    display:inline;
+    margin: 0;
+    padding:0 10px;
+}
+
+nav ul{
+    display:inline;
+}
+
+nav a{
+    height: 60px;
+    line-height: 60px;
+    color: #204156;
+    color:#FFF;
+    text-decoration:none;
+}
+
+.contact-btn{
+    float:right;
+    color:limegreen;
+}
+
+.contact-btn a{
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+    position: relative;
+   
+}
+
+contact-btn a:active{
+    top: 2px;
+}
+
+h1{
+    font-size:32px;
+    position:center;
+    color: rgb(121,149,117);
+}
+.hero {
+    background-image: url('images/visible spectrum pic 12.jpeg');
+    background-image: url('images/andtheymovedon .jpg');
+    background-position: center top;
+    background-size:contain;
+    padding: 250px 0;
+    margin: 30px;
+    text-shadow: 0 2px #000000;
+    font-family: 'Trebuchet MS','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+h2 {
+    font-size: 56px;
+    color: rgb(121,149,117);
+}
+  
+p {
+    font-size: 2rem;}
+}
+.hero a {
+    color: rgb(121,149,117);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+}
+.footer {
+    font-size: 1.25rem;
+    padding: 20px 0;
+}
